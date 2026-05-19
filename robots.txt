@@ -1,4 +1,0 @@
-User-agent: *
-Disallow: /about.html/
-Disallow: /service.html/
-Disallow: /work.html/
