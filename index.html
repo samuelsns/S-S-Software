@@ -1,0 +1,795 @@
+!DOCTYPE html>/8520
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <title>SS Software</title>
+    <!-- Favicon-->
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+    <!-- Bootstrap icons-->
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
+    <!-- Core theme CSS (includes Bootstrap)-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Tabler Icons CDN -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@latest/tabler-icons.min.css">
+    <link href="css/style.css" rel="stylesheet" />
+</head>
+
+<body class="d-flex flex-column h-100">
+    <!-- Navigation-->
+    <nav class="navbar navbar-expand-lg navbar-dark sticky-top px-4 py-3"
+        style="background: rgba(10, 15, 30, 0.8); backdrop-filter: blur(12px); border-bottom: 1px solid rgba(31, 42, 62, 0.5);">
+        <div class="container">
+            <a class="navbar-brand fw-bold text-uppercase ls-wide" href="index.html" style="letter-spacing: 2px;">
+                S&<span style="color:#0d6efd;">S</span>
+            </a>
+
+            <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navContent">
+                <i class="ti ti-menu-2 fs-2"></i>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navContent">
+                <ul class="navbar-nav ms-auto gap-lg-4">
+                    <li class="nav-item">
+                        <a class="nav-link custom-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link custom-link" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link custom-link" href="service.html">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link custom-link" href="ourwork.html">Our Work</a>
+                    </li>
+                </ul>
+                <div class="ms-lg-4 mt-3 mt-lg-0">
+                    <a href="#contact" class="btn btn-outline-primary btn-sm rounded-pill px-4">Contact</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    
+    <!-- Header -->
+    <!-- ══════════════════ HERO ══════════════════ -->
+    <section class="hero" id="home">
+        <canvas id="hero-canvas"></canvas>
+        <div class="hero-spotlight"></div>
+
+        <div class="container hero-content">
+            <div class="row align-items-center gy-5">
+
+                <!-- LEFT -->
+                <div class="col-lg-6">
+                    <div class="hero-tag">
+                        <span class="dot"></span>
+                        Available for new projects
+                    </div>
+
+                    <h1 class="hero-title">
+                        We Build<br>
+                        <span class="accent2">Software</span><br>
+                        That <span class="accent">Scales.</span>
+                    </h1>
+
+                    <p class="hero-sub">
+                        Elevate customer experiences with our advanced
+                        chat and voice bots.
+                    </p>
+
+                    <div class="hero-actions">
+                        <a href="#contact" class="btn-primary-nc text-decoration-none">Start a Project <i
+                                class="bi bi-arrow-right ms-1"></i></a>
+                        <a href="#services" class="btn-ghost-nc text-decoration-none">
+                            <i class="bi bi-play-circle-fill" style="color:var(--nc-accent)"></i> View Services
+                        </a>
+                    </div>
+
+                    <div class="hero-stats">
+                        <div class="stat-item">
+                            <div class="stat-num">10<span>+</span></div>
+                            <div class="stat-label">Years experience</div>
+                        </div>
+                        <div class="stat-divider"></div>
+                        <div class="stat-item">
+                            <div class="stat-num">340<span>+</span></div>
+                            <div class="stat-label">Projects delivered</div>
+                        </div>
+                        <div class="stat-divider"></div>
+                        <div class="stat-item">
+                            <div class="stat-num">98<span>%</span></div>
+                            <div class="stat-label">Client satisfaction</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- RIGHT — floating cards -->
+                <div class="col-lg-6 d-none d-lg-flex justify-content-center hero-visual">
+                    <div class="hero-card-stack">
+
+                        <!-- Main card -->
+                        <div class="hcard hcard-main">
+                            <div class="hcard-label">Current Sprint</div>
+                            <div class="hcard-title">E-Commerce Platform Rebuild</div>
+                            <div class="progress-bar-nc">
+                                <div class="progress-fill" style="animation-delay:.5s"></div>
+                            </div>
+                            <div class="d-flex justify-content-between mt-2">
+                                <span style="font-size:.72rem;color:var(--nc-muted)">Sprint 4 / 6</span>
+                                <span style="font-size:.72rem;color:var(--nc-accent)">78% done</span>
+                            </div>
+                            <div class="d-flex gap-2 mt-3">
+                                <span class="badge"
+                                    style="background:rgba(0,229,255,0.1);color:var(--nc-accent);font-size:.65rem">React</span>
+                                <span class="badge"
+                                    style="background:rgba(124,58,237,0.1);color:#a78bfa;font-size:.65rem">Node.js</span>
+                                <span class="badge"
+                                    style="background:rgba(16,185,129,0.1);color:var(--nc-accent3);font-size:.65rem">AWS</span>
+                            </div>
+                        </div>
+
+                        <!-- Stat card -->
+                        <div class="hcard hcard-stat">
+                            <div class="hcard-label">Uptime</div>
+                            <div class="hcard-val">99.9<span style="font-size:1rem;color:var(--nc-muted)">%</span>
+                            </div>
+                            <div class="hcard-sub">Last 90 days</div>
+                            <div class="d-flex align-items-center gap-1 mt-2">
+                                <i class="bi bi-arrow-up-short" style="color:var(--nc-accent3)"></i>
+                                <span style="font-size:.7rem;color:var(--nc-accent3)">0.04% this month</span>
+                            </div>
+                        </div>
+
+                        <!-- Log card -->
+                        <div class="hcard hcard-log">
+                            <div class="hcard-label">Deploy Log</div>
+                            <div class="log-line"><span class="log-dot green"></span>prod-v3.1.4 deployed
+                                successfully</div>
+                            <div class="log-line"><span class="log-dot blue"></span>CI pipeline passed — 142 tests
+                            </div>
+                            <div class="log-line"><span class="log-dot purple"></span>DB migration completed 0
+                                errors</div>
+                        </div>
+
+                        <!-- Badge card -->
+                        <div class="hcard hcard-badge">
+                            <div class="badge-nc">
+                                <div class="badge-icon"><i class="bi bi-shield-check"></i></div>
+                                <div>
+                                    <div class="badge-text">SOC 2 Compliant</div>
+                                    <div class="badge-sub">Security verified</div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ══════════════════ MARQUEE ══════════════════ -->
+    <section class="marquee-section bg-dark">
+        <p class="marquee-label">Trusted by industry leaders</p>
+        <div style="overflow:hidden">
+            <div class="marquee-track" id="marqueeTrack">
+                <!-- Original 5 -->
+                <div class="marquee-card">
+                    <i class="ti ti-building-store"></i>
+                    <span>VINTAGE</span>
+                </div>
+                <div class="marquee-card">
+                    <i class="ti ti-settings-automation"></i>
+                    <span>GARAGE</span>
+                </div>
+                <div class="marquee-card">
+                    <i class="ti ti-package"></i>
+                    <span>HANDCRAFTED</span>
+                </div>
+                <div class="marquee-card">
+                    <i class="ti ti-truck"></i>
+                    <span>MILLER</span>
+                </div>
+                <div class="marquee-card">
+                    <i class="ti ti-building-store"></i>
+                    <span>MILLER & CO.</span>
+                </div>
+
+                <!-- New 5 for "Bulk" -->
+                <div class="marquee-card">
+                    <i class="ti ti-hammer"></i>
+                    <span>FORGE</span>
+                </div>
+                <div class="marquee-card">
+                    <i class="ti ti-anchor"></i>
+                    <span>ANVIL</span>
+                </div>
+                <div class="marquee-card">
+                    <i class="ti ti-tree"></i>
+                    <span>TIMBER</span>
+                </div>
+                <div class="marquee-card">
+                    <i class="ti ti-crane"></i>
+                    <span>CRANE</span>
+                </div>
+                <div class="marquee-card">
+                    <i class="ti ti-bolt"></i>
+                    <span>STREAK</span>
+                </div>
+
+                <!-- Duplicate everything for a seamless loop -->
+                <div class="marquee-card"><i class="ti ti-building-store"></i><span>VINTAGE</span></div>
+                <div class="marquee-card"><i class="ti ti-settings-automation"></i><span>GARAGE</span></div>
+                <div class="marquee-card"><i class="ti ti-package"></i><span>HANDCRAFTED</span></div>
+                <div class="marquee-card"><i class="ti ti-truck"></i><span>MILLER</span></div>
+                <div class="marquee-card"><i class="ti ti-building-store"></i><span>MILLER & CO.</span></div>
+                <div class="marquee-card"><i class="ti ti-hammer"></i><span>FORGE</span></div>
+                <div class="marquee-card"><i class="ti ti-anchor"></i><span>ANVIL</span></div>
+                <div class="marquee-card"><i class="ti ti-tree"></i><span>TIMBER</span></div>
+                <div class="marquee-card"><i class="ti ti-crane"></i><span>CRANE</span></div>
+                <div class="marquee-card"><i class="ti ti-bolt"></i><span>STREAK</span></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features section-->
+    <section class="py-5 reveal bg-hero" id="features">
+        <div class="container px-5 my-5">
+            <div class="row gx-5">
+                <div class="col-lg-4 mb-5 mb-lg-0">
+                    <h2 class="fw-bolder mb-0">Transforming interactions with intelligent engineering.</h2>
+                </div>
+                <div class="col-lg-8">
+                    <div class="row gx-5 row-cols-1 row-cols-md-2">
+                        <div class="col mb-5 h-100">
+                            <div class="feature bg-primary bg-gradient text-white rounded-3 mb-3">
+                                <i class="bi bi-chat-dots"></i>
+                            </div>
+                            <h2 class="h5">Intelligent Conversational AI</h2>
+                            <p class="mb-0">Harnessing Dialogflow and advanced NLP to build bots that understand
+                                intent,
+                                providing personalized and natural human-like interactions.</p>
+                        </div>
+                        <div class="col mb-5 h-100">
+                            <div class="feature bg-primary bg-gradient text-white rounded-3 mb-3">
+                                <i class="bi bi-cloud-check"></i>
+                            </div>
+                            <h2 class="h5">Cloud-Native Scalability</h2>
+                            <p class="mb-0">Utilizing Google Cloud Platform (GCP) and NodeJS to ensure your
+                                applications are
+                                reliable, secure, and ready to handle high traffic volumes.</p>
+                        </div>
+                        <div class="col mb-5 mb-md-0 h-100">
+                            <div class="feature bg-primary bg-gradient text-white rounded-3 mb-3">
+                                <i class="bi bi-gear-wide-connected"></i>
+                            </div>
+                            <h2 class="h5">Task Automation</h2>
+                            <p class="mb-0">Free up your team by automating routine tasks, order updates, and FAQs
+                                with 24/7
+                                autonomous support agents.</p>
+                        </div>
+                        <div class="col h-100">
+                            <div class="feature bg-primary bg-gradient text-white rounded-3 mb-3">
+                                <i class="bi bi-telephone-outbound"></i>
+                            </div>
+                            <h2 class="h5">Seamless Integration</h2>
+                            <p class="mb-0">Integrated with Twilio for robust voice, messaging, and video
+                                capabilities,
+                                ensuring a unified experience across all communication channels.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Our Services -->
+    <section class="py-5 reveal bg-dark text-center" id="services">
+        <p class="text-primary text-uppercase fw-semibold small ls-wide">What we offer</p>
+        <h2 class="text-white fw-bold mb-2">Our services</h2>
+        <p class="text-secondary mx-auto mb-5" style="max-width:540px;">
+            There are many variations of passages of Lorem Ipsum available, but the majority have suffered
+            alteration.
+        </p>
+
+        <div class="container">
+            <div class="row g-0 border border-secondary rounded-3 overflow-hidden">
+
+                <div class="col-12 col-md-6 col-lg-4 svc-card position-relative p-4 text-start reveal">
+                    <canvas class="svc-canvas position-absolute top-0 start-0 w-100 h-100"></canvas>
+                    <div class="position-relative" style="z-index:2">
+                        <div class="svc-icon mb-3"><i class="ti ti-cloud"></i></div>
+                        <span class="badge bg-primary bg-opacity-10 text-primary mb-2">GCP</span>
+                        <h3 class="text-white fs-6 fw-semibold">Cloud Services</h3>
+                        <p class="text-secondary small">With our expertise in Google Cloud Platform, we help
+                            businesses
+                            leverage the power of the cloud to securely store data, improve collaboration and
+                            maximize
+                            efficiency.</p>
+                    </div>
+                </div>
+
+                <div
+                    class="col-12 col-md-6 col-lg-4 svc-card position-relative p-4 text-start border-start border-secondary reveal reveal-delay-1">
+                    <canvas class="svc-canvas position-absolute top-0 start-0 w-100 h-100"></canvas>
+                    <div class="position-relative" style="z-index:2">
+                        <div class="svc-icon mb-3"><i class="ti ti-robot"></i></div>
+                        <span class="badge bg-primary bg-opacity-10 text-primary mb-2">Dialogflow</span>
+                        <h3 class="text-white fs-6 fw-semibold">AI-Based Solutions</h3>
+                        <p class="text-secondary small">Harness the power of Dialogflow to build engaging voice and
+                            text-based conversational interfaces, such as voice apps and chatbots.</p>
+                    </div>
+                </div>
+
+                <div
+                    class="col-12 col-md-6 col-lg-4 svc-card position-relative p-4 text-start border-start border-secondary reveal reveal-delay-2">
+                    <canvas class="svc-canvas position-absolute top-0 start-0 w-100 h-100"></canvas>
+                    <div class="position-relative" style="z-index:2">
+                        <div class="svc-icon mb-3"><i class="ti ti-brand-nodejs"></i></div>
+                        <span class="badge bg-primary bg-opacity-10 text-primary mb-2">NodeJS</span>
+                        <h3 class="text-white fs-6 fw-semibold">Application Development</h3>
+                        <p class="text-secondary small">Our skilled team utilizes NodeJS to create scalable and
+                            high-performing real-time applications tailored to meet your unique business needs.</p>
+                    </div>
+                </div>
+
+                <div
+                    class="col-12 col-md-6 col-lg-4 svc-card position-relative p-4 text-start border-top border-secondary reveal reveal-delay-3">
+                    <canvas class="svc-canvas position-absolute top-0 start-0 w-100 h-100"></canvas>
+                    <div class="position-relative" style="z-index:2">
+                        <div class="svc-icon mb-3"><i class="ti ti-message-2-code"></i></div>
+                        <span class="badge bg-primary bg-opacity-10 text-primary mb-2">Twilio</span>
+                        <h3 class="text-white fs-6 fw-semibold">Communication APIs</h3>
+                        <p class="text-secondary small">Enhance your customer communication through the integration
+                            of
+                            Twilio. From voice, messaging, video, and more.</p>
+                    </div>
+                </div>
+
+                <div
+                    class="col-12 col-md-6 col-lg-4 svc-card position-relative p-4 text-start border-start border-top border-secondary reveal reveal-delay-4">
+                    <canvas class="svc-canvas position-absolute top-0 start-0 w-100 h-100"></canvas>
+                    <div class="position-relative" style="z-index:2">
+                        <div class="svc-icon mb-3"><i class="ti ti-microphone"></i></div>
+                        <span class="badge bg-primary bg-opacity-10 text-primary mb-2">Automation</span>
+                        <h3 class="text-white fs-6 fw-semibold">Chatbot & Voicebot Solutions</h3>
+                        <p class="text-secondary small">Our advanced chatbot and voicebot solutions are designed to
+                            enrich
+                            customer interaction and drive efficiency.</p>
+                    </div>
+                </div>
+
+                <div
+                    class="col-12 col-md-6 col-lg-4 svc-card position-relative p-4 text-start border-start border-top border-secondary reveal reveal-delay-5">
+                    <canvas class="svc-canvas position-absolute top-0 start-0 w-100 h-100"></canvas>
+                    <div class="position-relative" style="z-index:2">
+                        <div class="svc-icon mb-3"><i class="ti ti-plus"></i></div>
+                        <span class="badge bg-primary bg-opacity-10 text-primary mb-2">Coming Soon</span>
+                        <h3 class="text-white fs-6 fw-semibold">Custom Solutions</h3>
+                        <p class="text-secondary small">Tailored variations and implementations built from the
+                            ground up to
+                            solve your specific technical challenges.</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- About Us -->
+    <section class="py-5 reveal bg-hero" style="background: #111827 ;">
+        <div class="container py-4">
+            <div class="row align-items-center g-5">
+
+                <!-- Image column -->
+                <div class="col-12 col-lg-5">
+                    <div class="position-relative" style="padding-bottom: 1.5rem;">
+                        <div class="rounded-3 overflow-hidden border border-secondary"
+                            style="aspect-ratio: 4/3; background: #1e2d45;">
+                            <img src="./assets/about-us.png" alt="S&S Software team"
+                                class="w-100 h-100 object-fit-cover" />
+                        </div>
+                        <!-- floating badge -->
+                        <div class="position-absolute bottom-0 end-0 me-n3 rounded-3 p-3 text-center"
+                            style="background: dodgerblue; border: 3px solid #111827; min-width:110px;">
+                            <div class="text-white fw-bold fs-3 lh-1">10+</div>
+                            <div class="text-white opacity-75" style="font-size:0.72rem;">Years of experience</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Text column -->
+                <div class="col-12 col-lg-7">
+                    <p class="text-primary fw-semibold text-uppercase" style="font-size:12px; letter-spacing:0.09em;">
+                        Who we
+                        are</p>
+                    <div style="width:48px; height:3px; background: dodgerblue; border-radius:2px; margin-bottom:1rem;">
+                    </div>
+                    <h2 class="text-white fw-bold mb-3" style="line-height:1.25;">
+                        Your trusted partner in <span class="text-primary">automation technology</span>
+                    </h2>
+                    <p class="text-secondary mb-4" style="line-height:1.8; font-size:0.9rem;">
+                        S&S Software provides state-of-the-art solutions to streamline operations, optimize customer
+                        engagement, and give your business a competitive edge. Our experienced team collaborates
+                        closely
+                        with you to understand your unique needs and deliver custom solutions that exceed your
+                        expectations.
+                    </p>
+
+                    <!-- Tech pills -->
+                    <div class="d-flex flex-wrap gap-2 mb-4">
+                        <span class="badge rounded-pill"
+                            style="background:#1e3a5f; color:#93c5fd; font-weight:500;">GCP</span>
+                        <span class="badge rounded-pill"
+                            style="background:#1e3a5f; color:#93c5fd; font-weight:500;">Dialogflow</span>
+                        <span class="badge rounded-pill"
+                            style="background:#1e3a5f; color:#93c5fd; font-weight:500;">Node.js</span>
+                        <span class="badge rounded-pill"
+                            style="background:#1e3a5f; color:#93c5fd; font-weight:500;">Twilio</span>
+                        <span class="badge rounded-pill" style="background:#1e3a5f; color:#93c5fd; font-weight:500;">AI
+                            Chatbots</span>
+                    </div>
+
+                    <!-- Checklist -->
+                    <div class="row row-cols-2 g-2 mb-4">
+                        <div class="col d-flex align-items-center gap-2 text-secondary" style="font-size:0.85rem;">
+                            <div class="rounded-circle bg-primary flex-shrink-0" style="width:7px;height:7px;">
+                            </div> Cloud
+                            solutions
+                        </div>
+                        <div class="col d-flex align-items-center gap-2 text-secondary" style="font-size:0.85rem;">
+                            <div class="rounded-circle bg-primary flex-shrink-0" style="width:7px;height:7px;">
+                            </div> AI
+                            interfaces
+                        </div>
+                        <div class="col d-flex align-items-center gap-2 text-secondary" style="font-size:0.85rem;">
+                            <div class="rounded-circle bg-primary flex-shrink-0" style="width:7px;height:7px;">
+                            </div>
+                            Scalable apps
+                        </div>
+                        <div class="col d-flex align-items-center gap-2 text-secondary" style="font-size:0.85rem;">
+                            <div class="rounded-circle bg-primary flex-shrink-0" style="width:7px;height:7px;">
+                            </div>
+                            Customer comms
+                        </div>
+                        <div class="col d-flex align-items-center gap-2 text-secondary" style="font-size:0.85rem;">
+                            <div class="rounded-circle bg-primary flex-shrink-0" style="width:7px;height:7px;">
+                            </div> Voice
+                            &amp; chatbots
+                        </div>
+                        <div class="col d-flex align-items-center gap-2 text-secondary" style="font-size:0.85rem;">
+                            <div class="rounded-circle bg-primary flex-shrink-0" style="width:7px;height:7px;">
+                            </div> Custom
+                            consulting
+                        </div>
+                    </div>
+
+                    <!-- Buttons -->
+                    <div class="d-flex flex-wrap gap-3">
+                        <a href="https://ss-software.co/about.html" class="btn btn-primary px-4">
+                            Read more &rarr;
+                        </a>
+                        <a href="#contact" class="btn btn-outline-secondary px-4">Get in touch</a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Choose Us -->
+    <section class="py-5 reveal bg-dark" style="background:#111827;">
+        <div class="container py-3 text-center">
+            <p class="text-uppercase fw-semibold mb-1"
+                style="font-size:12px; letter-spacing:0.09em; color: dodgerblue;">Why
+                us</p>
+            <h2 class="text-white fw-bold mb-2">Why choose <span style="color: dodgerblue;">S&S Software</span></h2>
+            <p class="mx-auto mb-5 text-secondary" style="max-width:540px; font-size:0.9rem; line-height:1.75;">
+                We understand that technology drives business. That's why we offer superior customer channel
+                automation
+                solutions to help you stay ahead of the curve.
+            </p>
+
+            <div class="row g-0 border rounded-3 overflow-hidden mx-auto"
+                style="max-width:860px; border-color:#1f2a3e !important; background:#1f2a3e;">
+
+                <div class="col-12 col-md-6 col-lg-4 p-4 text-start wcu-item reveal" style="background:#0f172a;">
+                    <div class="mb-3 d-flex align-items-center justify-content-center rounded-2"
+                        style="width:38px;height:38px;background:rgba(107,126,255,0.12);">
+                        <i class="ti ti-users" style="font-size:19px;color: dodgerblue;"></i>
+                    </div>
+                    <h3 class="fw-semibold mb-2" style="color:#e2e8f0;font-size:0.92rem;">Expert team</h3>
+                    <p class="mb-0" style="color:#64748b;font-size:0.8rem;line-height:1.65;">Experienced developers
+                        and
+                        consultants who collaborate closely with you to understand your unique needs.</p>
+                </div>
+
+                <div class="col-12 col-md-6 col-lg-4 p-4 text-start wcu-item reveal reveal-delay-1"
+                    style="background:#0f172a;">
+                    <div class="mb-3 d-flex align-items-center justify-content-center rounded-2"
+                        style="width:38px;height:38px;background:rgba(107,126,255,0.12);">
+                        <i class="ti ti-settings-automation" style="font-size:19px;color: dodgerblue;"></i>
+                    </div>
+                    <h3 class="fw-semibold mb-2" style="color:#e2e8f0;font-size:0.92rem;">Custom automation</h3>
+                    <p class="mb-0" style="color:#64748b;font-size:0.8rem;line-height:1.65;">State-of-the-art
+                        automation
+                        solutions tailored to streamline your operations and maximize efficiency.</p>
+                </div>
+
+                <div class="col-12 col-md-6 col-lg-4 p-4 text-start wcu-item reveal reveal-delay-2"
+                    style="background:#0f172a;">
+                    <div class="mb-3 d-flex align-items-center justify-content-center rounded-2"
+                        style="width:38px;height:38px;background:rgba(107,126,255,0.12);">
+                        <i class="ti ti-cloud" style="font-size:19px;color: dodgerblue;"></i>
+                    </div>
+                    <h3 class="fw-semibold mb-2" style="color:#e2e8f0;font-size:0.92rem;">Cloud-first approach</h3>
+                    <p class="mb-0" style="color:#64748b;font-size:0.8rem;line-height:1.65;">We leverage GCP and
+                        modern
+                        cloud infrastructure to build scalable, secure, and resilient systems.</p>
+                </div>
+
+                <div class="col-12 col-md-6 col-lg-4 p-4 text-start wcu-item reveal reveal-delay-3"
+                    style="background:#0f172a;">
+                    <div class="mb-3 d-flex align-items-center justify-content-center rounded-2"
+                        style="width:38px;height:38px;background:rgba(107,126,255,0.12);">
+                        <i class="ti ti-message-chatbot" style="font-size:19px;color: dodgerblue;"></i>
+                    </div>
+                    <h3 class="fw-semibold mb-2" style="color:#e2e8f0;font-size:0.92rem;">AI-powered engagement</h3>
+                    <p class="mb-0" style="color:#64748b;font-size:0.8rem;line-height:1.65;">Conversational AI via
+                        Dialogflow and Twilio that enriches customer interaction around the clock.</p>
+                </div>
+
+                <div class="col-12 col-md-6 col-lg-4 p-4 text-start wcu-item reveal reveal-delay-4"
+                    style="background:#0f172a;">
+                    <div class="mb-3 d-flex align-items-center justify-content-center rounded-2"
+                        style="width:38px;height:38px;background:rgba(107,126,255,0.12);">
+                        <i class="ti ti-trophy" style="font-size:19px;color: dodgerblue;"></i>
+                    </div>
+                    <h3 class="fw-semibold mb-2" style="color:#e2e8f0;font-size:0.92rem;">Results that exceed</h3>
+                    <p class="mb-0" style="color:#64748b;font-size:0.8rem;line-height:1.65;">We deliver custom
+                        solutions
+                        built to exceed expectations — not just meet them.</p>
+                </div>
+
+                <div class="col-12 col-md-6 col-lg-4 p-4 text-start wcu-item reveal reveal-delay-5"
+                    style="background:#0f172a;">
+                    <div class="mb-3 d-flex align-items-center justify-content-center rounded-2"
+                        style="width:38px;height:38px;background:rgba(107,126,255,0.12);">
+                        <i class="ti ti-shield-check" style="font-size:19px;color: dodgerblue;"></i>
+                    </div>
+                    <h3 class="fw-semibold mb-2" style="color:#e2e8f0;font-size:0.92rem;">Trusted partner</h3>
+                    <p class="mb-0" style="color:#64748b;font-size:0.8rem;line-height:1.65;">A reliable long-term
+                        partner
+                        committed to your business growth and competitive advantage.</p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ═══ CONTACT SECTION ═══ -->
+    <section id="contact" class="py-5 reveal bg-hero" style="background:#111827;">
+        <div class="container py-4">
+            <p class="text-center text-uppercase fw-semibold mb-1"
+                style="color: dodgerblue;font-size:12px;letter-spacing:0.09em;">Get in touch</p>
+            <h2 class="text-white fw-bold text-center mb-2">Contact <span style="color: dodgerblue;">us</span></h2>
+            <p class="text-center text-secondary mx-auto mb-5"
+                style="max-width:480px;font-size:0.88rem;line-height:1.75;">
+                Have a project in mind or want to learn more? We'd love to hear from you.
+            </p>
+
+            <div class="row g-4 align-items-start justify-content-center" style="max-width:900px;margin:0 auto;">
+
+                <!-- Info column -->
+                <div class="col-12 col-lg-4 d-flex flex-column gap-4">
+
+                    <div class="d-flex align-items-start gap-3">
+                        <div class="d-flex align-items-center justify-content-center rounded-2 flex-shrink-0"
+                            style="width:42px;height:42px;background:rgba(107,126,255,0.12);">
+                            <i class="ti ti-mail" style="font-size:20px;color: dodgerblue;"></i>
+                        </div>
+                        <div>
+                            <p class="text-uppercase fw-semibold mb-1"
+                                style="color:#4b5563;font-size:11px;letter-spacing:0.08em;">Email</p>
+                            <a href="mailto:samuel@ss-software.co"
+                                style="color:#cbd5e1;font-size:0.88rem;text-decoration:none;">samuel@ss-software.co</a>
+                        </div>
+                    </div>
+
+                    <div class="d-flex align-items-start gap-3">
+                        <div class="d-flex align-items-center justify-content-center rounded-2 flex-shrink-0"
+                            style="width:42px;height:42px;background:rgba(107,126,255,0.12);">
+                            <i class="ti ti-phone" style="font-size:20px;color: dodgerblue;"></i>
+                        </div>
+                        <div>
+                            <p class="text-uppercase fw-semibold mb-1"
+                                style="color:#4b5563;font-size:11px;letter-spacing:0.08em;">Phone</p>
+                            <a href="tel:+447466474708"
+                                style="color:#cbd5e1;font-size:0.88rem;text-decoration:none;">+44 7466 474 708</a>
+                        </div>
+                    </div>
+
+                    <div class="d-flex align-items-start gap-3">
+                        <div class="d-flex align-items-center justify-content-center rounded-2 flex-shrink-0"
+                            style="width:42px;height:42px;background:rgba(107,126,255,0.12);">
+                            <i class="ti ti-map-pin" style="font-size:20px;color: dodgerblue;"></i>
+                        </div>
+                        <div>
+                            <p class="text-uppercase fw-semibold mb-1"
+                                style="color:#4b5563;font-size:11px;letter-spacing:0.08em;">Location</p>
+                            <a href="https://maps.app.goo.gl/VYgiyH2NAtVDwtWn9" target="_blank"
+                                style="color:#cbd5e1;font-size:0.88rem;text-decoration:none;">View on Google
+                                Maps</a>
+                        </div>
+                    </div>
+
+                    <div>
+                        <p class="text-uppercase fw-semibold mb-2"
+                            style="color:#4b5563;font-size:11px;letter-spacing:0.08em;">Follow us</p>
+                        <div class="d-flex gap-2">
+                            <a href="#demo" class="d-flex align-items-center justify-content-center rounded-2"
+                                style="width:38px;height:38px;background:#1a2435;border:1px solid #1f2a3e;text-decoration:none;"
+                                aria-label="Facebook">
+                                <i class="ti ti-brand-facebook" style="font-size:17px;color: dodgerblue;"></i>
+                            </a>
+                            <a href="#demo" class="d-flex align-items-center justify-content-center rounded-2"
+                                style="width:38px;height:38px;background:#1a2435;border:1px solid #1f2a3e;text-decoration:none;"
+                                aria-label="Twitter">
+                                <i class="ti ti-brand-twitter" style="font-size:17px;color: dodgerblue;"></i>
+                            </a>
+                            <a href="#demo" class="d-flex align-items-center justify-content-center rounded-2"
+                                style="width:38px;height:38px;background:#1a2435;border:1px solid #1f2a3e;text-decoration:none;"
+                                aria-label="Instagram">
+                                <i class="ti ti-brand-instagram" style="font-size:17px;color: dodgerblue;"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Form column -->
+                <div class="col-12 col-lg-7">
+                    <form action="mailto:samuel@ss-software.co" method="post" enctype="text/plain" class="p-4 rounded-3"
+                        style="background:#0f172a;border:1px solid #1f2a3e;">
+                        <div class="row g-3 mb-3">
+                            <div class="col-12 col-sm-6">
+                                <label class="form-label text-uppercase fw-semibold"
+                                    style="color:#64748b;font-size:11px;letter-spacing:0.05em;">Name</label>
+                                <input type="text" name="Name" class="form-control" placeholder="John Doe"
+                                    style="background:#111827;border-color:#1f2a3e;color:#e2e8f0;">
+                            </div>
+                            <div class="col-12 col-sm-6">
+                                <label class="form-label text-uppercase fw-semibold"
+                                    style="color:#64748b;font-size:11px;letter-spacing:0.05em;">Email</label>
+                                <input type="email" name="Email" class="form-control" placeholder="you@example.com"
+                                    style="background:#111827;border-color:#1f2a3e;color:#e2e8f0;">
+                            </div>
+                            <div class="col-12 col-sm-6">
+                                <label class="form-label text-uppercase fw-semibold"
+                                    style="color:#64748b;font-size:11px;letter-spacing:0.05em;">Phone</label>
+                                <input type="tel" name="Phone" class="form-control" placeholder="+1 234 567 890"
+                                    style="background:#111827;border-color:#1f2a3e;color:#e2e8f0;">
+                            </div>
+                            <div class="col-12 col-sm-6">
+                                <label class="form-label text-uppercase fw-semibold"
+                                    style="color:#64748b;font-size:11px;letter-spacing:0.05em;">Subject</label>
+                                <select name="Subject" class="form-select"
+                                    style="background:#111827;border-color:#1f2a3e;color:#e2e8f0;">
+                                    <option value="">Select a topic</option>
+                                    <option>Cloud Services (GCP)</option>
+                                    <option>AI-Based Solutions</option>
+                                    <option>Application Development</option>
+                                    <option>Communication APIs</option>
+                                    <option>Chatbot & Voicebot</option>
+                                    <option>General Enquiry</option>
+                                </select>
+                            </div>
+                            <div class="col-12">
+                                <label class="form-label text-uppercase fw-semibold"
+                                    style="color:#64748b;font-size:11px;letter-spacing:0.05em;">Message</label>
+                                <textarea name="Message" class="form-control" rows="4"
+                                    placeholder="Tell us about your project..."
+                                    style="background:#111827;border-color:#1f2a3e;color:#e2e8f0;resize:vertical;"></textarea>
+                            </div>
+                        </div>
+                        <button type="submit"
+                            class="btn w-100 fw-semibold d-flex align-items-center justify-content-center gap-2"
+                            style="background: dodgerblue;color:#fff;border:none;padding:0.75rem;">
+                            Send message <i class="ti ti-send"></i>
+                        </button>
+                    </form>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ═══ FOOTER ═══ -->
+    <footer class="reveal" style="background:#0a0f1e; border-top:1px solid #1f2a3e;;">
+        <div class="container py-5">
+            <div class="row g-4">
+                <div class="col-12 col-md-5">
+                    <p class="fw-bold mb-2" style="color:#f9fafb; font-size:1.1rem; letter-spacing: 1px;">
+                        S&<span style="color:#0d6efd;">S</span> SOFTWARE
+                    </p>
+                    <p style="color:#94a3b8; font-size:0.85rem; line-height:1.7; max-width:280px;">
+                        Architecting the automated future through AI-driven workflows,
+                        scalable cloud infrastructure, and human-centric design.
+                    </p>
+                    <div class="d-flex gap-2 mt-3">
+
+                        <a href="#demo" class="d-flex align-items-center justify-content-center rounded-2"
+                            style="width:34px;height:34px;background:#1a2435;border:1px solid #1f2a3e;"
+                            aria-label="Facebook">
+
+                            <i class="ti ti-brand-facebook" style="font-size:16px;color: dodgerblue;"></i>
+
+                        </a>
+
+                        <a href="#demo" class="d-flex align-items-center justify-content-center rounded-2"
+                            style="width:34px;height:34px;background:#1a2435;border:1px solid #1f2a3e;"
+                            aria-label="Twitter">
+
+                            <i class="ti ti-brand-twitter" style="font-size:16px;color: dodgerblue;"></i>
+
+                        </a>
+
+                        <a href="https://github.com/samuelsns"
+                            class="d-flex align-items-center justify-content-center rounded-2"
+                            style="width:34px;height:34px;background:#1a2435;border:1px solid #1f2a3e;"
+                            aria-label="Instagram">
+
+                            <i class="ti ti-brand-github" style="font-size:16px;color: dodgerblue;"></i>
+
+                        </a>
+
+                    </div>
+                </div>
+
+                <div class="col-6 col-md-3">
+                    <p class="text-uppercase fw-bold mb-3" style="color:#64748b; font-size:11px; letter-spacing:0.1em;">
+                        Company
+                    </p>
+                    <ul class="list-unstyled d-flex flex-column gap-2">
+                        <li><a href="index.html" class="footer-link">Home</a></li>
+                        <li><a href="about.html" class="footer-link">About Us</a></li>
+                        <li><a href="service.html" class="footer-link">Services</a></li>
+                        <li><a href="ourwork.html" class="footer-link">Our Work</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-6 col-md-4">
+                    <p class="text-uppercase fw-bold mb-3" style="color:#64748b; font-size:11px; letter-spacing:0.1em;">
+                        Contact
+                    </p>
+                    <p class="small text-secondary mb-1">Inquiries:</p>
+                    <a href="mailto:samuel@ss-software.co"
+                        class="text-white text-decoration-none small">samuel@ss-software.co</a>
+                </div>
+            </div>
+
+            <hr style="border-color:#1f2a3e; margin:2.5rem 0 1.5rem;">
+
+            <div class="d-flex justify-content-between align-items-center flex-wrap gap-2 pb-2">
+                <p style="color:#4b5563; font-size:0.75rem; margin:0;">
+                    &copy; 2026 <span class="text-white">S&S Software</span>. Built with high-tech minimalism.
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap core JS-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Core theme JS-->
+    <script src="js/stars.js"></script>
+    <script src="js/card.js"></script>
+    <script src="js/scrolling.js"></script>
+
+</body>
+
+</html>
